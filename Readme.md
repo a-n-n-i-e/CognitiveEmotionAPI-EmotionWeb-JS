@@ -26,5 +26,5 @@ To get envorpnment, please see [Install Visual Studio Code](http://qiita.com/ann
 ダウンロード後、scripts/script.js を開き、16行目の subscriptionKey に Emotion Api のサブスクリプションキーをコピーして保存します。
 index.html をブラウザで開き、動作を確認できます。
 
-After download bits, open scripts/script.js, paste Emotion API Subscription Key to emotionApiKey on line 16 and save file.
+After download bits, open scripts/script.js, paste Emotion API Subscription Key to YOUR_SUBSCRIPTION_KEY on line 16 and save file.
 Open index.html with browser and it should work.
