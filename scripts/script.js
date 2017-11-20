@@ -11,15 +11,16 @@ $(function () {
     //画像の分析    
     var getFaceInfo = function () {
 
-        // Emotion API の Subscription Key をセット
-        // お持ちの Subscription Key をコピーしてください
-        var subscriptionKey = "YOUR_SUBSCRIPTION_KEY";
-
+        // Emotion API の Subscription Key と URL をセット
+        // サブスクリプション画面に表示される URL および Key をコピーしてください
+        var subscriptionKey = "YOUR_SUBKEY";
+        var endpoint = "YOUR_ENDPOINT";
+        
         // 画像 URL をセット
         var imageUrl = $("#imageUrlTextbox").val();
 
         // Emotion API 呼び出し URL をセット
-        var webSvcUrl = "https://api.projectoxford.ai/emotion/v1.0/recognize";
+        var webSvcUrl = endpoint + "/recognize";       
 
         // 画面に表示するメッセージをセット
         var outputDiv = $("#OutputDiv");

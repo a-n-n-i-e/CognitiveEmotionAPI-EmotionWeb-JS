@@ -23,8 +23,8 @@ Developed on Windows 10 (Anniversary Update), and Visual Studio Code.
 To get envorpnment, please see [Install Visual Studio Code](http://qiita.com/annie/items/cd24a22eae7f07536dd1).
 
 ##利用方法 | How to Use
-ダウンロード後、scripts/script.js を開き、16行目の subscriptionKey に Emotion Api のサブスクリプションキーをコピーして保存します。
+ダウンロード後、scripts/script.js を開き、16行目の YOUR_SUBKEY に Emotion Api のサブスクリプションキー、17行目の YOUR_ENDPOINT に Emotion Api のエンドポイント　URL をコピーして保存します。
 index.html をブラウザで開き、動作を確認できます。
 
-After download bits, open scripts/script.js, paste Emotion API Subscription Key to YOUR_SUBSCRIPTION_KEY on line 16 and save file.
+After download bits, open scripts/script.js, paste Emotion API Subscription Key to YOUR_SUBKEY on line 16, Emotion API Endpoint URL to YOUR_ENDPOINT on line 17, and save file.
 Open index.html with browser and it should work.
